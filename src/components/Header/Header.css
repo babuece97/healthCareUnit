@@ -1,0 +1,15 @@
+.header {
+    background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.-wOsrcZdljP466cnw_uDwgHaDf%26pid%3DApi&f=1");
+    height: 410px; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .title {
+    color: rgb(233, 201, 201);
+    font-weight: bold;
+    font-size: 59px;
+  }
+  
+  
