@@ -11,15 +11,14 @@ const Courses = () => {
             .then(data => setCourses(data))
     }, [])
     return (
-        <div className="courses">
-            {/* <h3>Thus is courese</h3> */}
-            {
-                courses.map(course => <Course
-                    key={course.id}
-                    course={course}
-                ></Course>)
-            }
-        </div>
+        <div className="d-flex justify-content-evenly">
+        {
+            courses.slice(0, 6).map(course => <Course
+                key={course.id}
+                course={course}
+            ></Course>)
+        }
+    </div>
     );
 };
 

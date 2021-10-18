@@ -6,7 +6,7 @@ const Course = (props) => {
     return (
         <div className="course">
             <img src={img} alt="" />
-            <h4>Service: {name}</h4>
+            <h4> {name}</h4>
             <h6>  {Description}</h6>
 
         </div>

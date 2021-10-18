@@ -8,7 +8,7 @@ const Footer = () => {
         // </div>
         <footer className=" dark-back">
             <div className="center-position">
-                <h1> <span class="vivid-color">Health care</span> <span id="shado-color">Unit</span></h1>
+                <h1> <span class="vivid-color">Health Care</span> <span id="shado-color">Unit</span></h1>
                 <p className="slogan">We are dedicated to serve all ages of people.</p>
             </div>
             <div className="d-flex justify-content-between">
