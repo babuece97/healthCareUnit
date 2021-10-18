@@ -1,4 +1,4 @@
-.courses {
+.services {
     display:grid;
     grid-template-columns: repeat(3, 1fr);
     background-color: rgb(109, 107, 107);

@@ -1,7 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import Service from '../Service/Service';
+import './Services.css'
 
-const Home = () => {
+const Services = () => {
     const [services, setServices] = useState([])
     useEffect(() => {
         fetch('./fakedata.json')
@@ -9,12 +10,10 @@ const Home = () => {
             // .then(data => console.log(data));
             .then(data => setServices(data))
     }, [])
-
     return (
-        <div className="services">
-        {/* <h3>Thus is courese</h3> */}
+        <div className="d-flex justify-content-evenly">
         {
-            services.map(service => <Service
+            services.slice(0, 6).map(service => <Service
                 key={service.id}
                 service={service}
             ></Service>)
@@ -23,4 +22,4 @@ const Home = () => {
     );
 };
 
-export default Home;
+export default Services;

@@ -9,7 +9,7 @@ import Contact from './components/Contact/Contact';
 import Error from './components/Error/Error';
 import Header from './components/Header/Header';
 import Footer from './components/Footer/Footer';
-import Courses from './components/Courses/Courses';
+import Services from './components/Services/Services';
 import Login from './components/Login/Login';
 import Registration from './components/Registration/Registration';
 
@@ -25,8 +25,8 @@ function App() {
           <Route exact path="/">
             <Home></Home>
           </Route>
-          <Route path="/courses">
-            <Courses></Courses>
+          <Route path="/services">
+            <Services></Services>
           </Route>
           <Route path="/about">
             <About></About>
