@@ -11,6 +11,7 @@ import Header from './components/Header/Header';
 import Footer from './components/Footer/Footer';
 import Courses from './components/Courses/Courses';
 import Login from './components/Login/Login';
+import Registration from './components/Registration/Registration';
 
 function App() {
   return (
@@ -32,6 +33,9 @@ function App() {
           </Route>
           <Route path="/contact">
             <Contact></Contact>
+          </Route>
+          <Route path="/registration">
+            <Registration></Registration>
           </Route>
           <Route path="/login">
             <Login></Login>

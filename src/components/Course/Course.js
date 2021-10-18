@@ -6,11 +6,9 @@ const Course = (props) => {
     return (
         <div className="course">
             <img src={img} alt="" />
-            <h4>Course Title: {name}</h4>
-            <h6> Suite for: {Description}</h6>
-            <p>Level: {level}</p>
-           
-            <h3>Fees: {price}</h3>
+            <h4>Service: {name}</h4>
+            <h6>  {Description}</h6>
+
         </div>
     );
 };
