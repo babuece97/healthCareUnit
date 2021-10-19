@@ -12,12 +12,12 @@ const Home = () => {
 
     return (
         <div className="services">
-        {/* <h3>Thus is courese</h3> */}
         {
             services.map(service => <Service
                 key={service.id}
                 service={service}
             ></Service>)
+            
         }
     </div>
     );

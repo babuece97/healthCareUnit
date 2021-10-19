@@ -11,6 +11,7 @@
   {
     "name": "Mental health",
     "Description": "Mental health, a state of well-being in which the individual realizes his or her own abilities, can cope with the normal stresses of life, can work productively and fruitfully, and is able to make a contribution to his or her community",
+    "features": " Mental health includes our emotional, psychological, and social well-being. It affects how we think, feel, and act. It also helps determine how we handle stress, relate to others, and make choices. Mental health is important at every stage of life, from childhood and adolescence through adulthood.Over the course of your life, if you experience mental health problems, your thinking, mood, and behavior could be affected. Many factors contribute to mental health problems, including",
     "gender": "both",
     "price": 3500,
     "id": "009",
@@ -19,6 +20,7 @@
   {
     "name": "Child health care",
     "Description": "Child care, otherwise known as day care, is the care and supervision of a child or multiple children at a time, whose ages range from two weeks to eighteen years. Child care is a broad topic that covers a wide spectrum of professionals, institutions, contexts, activities, and social and cultural",
+    "features": "Your child's health includes physical, mental and social well-being. Most parents know the basics of keeping children healthy, like offering them healthy foods, making sure they get enough sleep and exercise and insuring their safety.It is also important for children to get regular checkups with their health care provider. These visits are a chance to check your child's development. They are also a good time to catch or prevent problems.",
     "gender": "both",
     "price": 5000,
     "id": "011",
@@ -27,6 +29,7 @@
   {
     "name": "Diagonosis",
     "Description": "diagnosis: 1 n identifying the nature or cause of some phenomenon Synonyms: diagnosing Types: show 5 types... hide 5 types... blood typing determining a person's blood type by serological methods medical diagnosis identification of a disease from its symptoms uranalysis , urinalysis (medicine) the chemical analysis of urine",
+    "features": "diagnosis-Related Groups (DRG) a system of classification or grouping of patients according to medical diagnosis for purposes of paying hospitalization costs. In 1983, amendments to Social Security contained a prospective payment plan for most Medicare inpatient services in the United States. The payment plan was intended to control rising health care costs by paying a fixed amount per patient. The program of DRG reimbursement was based on the premise that similar medical diagnoses would generate similar costs for hospitalization. Therefore, all patients admitted for a surgical procedure such as hernia repair would be charged the same amount regardless of actual cost to the hospital. If a patient's hospital bill should total less than the amount paid by Medicare, the hospital is allowed to keep the difference. If, however, a patient's bill is more than that reimbursed by Medicare for a specific diagnosis, the hospital must absorb the difference in cost. See also appendix of Diagnosis-Related Groups. ",
     "gender": "both",
     "price": 5500,
     "id": "013",
@@ -35,6 +38,7 @@
   {
     "name": "Online doctors",
     "Description": "Affordable, Convenient, Fast and Confidential Virtual Urgent Care Medical Service. Free Unlimited Follow-up for 1 month. Same Day Treatment.",
+    "features": "Our online doctors can provide advice and treatment for various conditions such as providing UTI medication, and offering allergy treatments online. The use of online doctor appointments is growing rapidly, and more and more people are beginning to realize how beneficial this service actually is.",
     "gender": "both",
     "price": 6000,
     "id": "015",
@@ -43,6 +47,7 @@
   {
     "name": "24/7 Ambulance",
     "Description": "An ambulance is a medically equipped vehicle which transports patients to treatment facilities, such as hospitals. Typically, out-of-hospital medical care is provided to the patient. Ambulances are used to respond to medical emergencies by emergency medical service",
+    "features": "However if you want a used 4×4 ambulance for sale but aren't interested in a Type 1, there are conversion kits which can be used on a Type 1 or Type 3. An alternative to a used 4×4 for sale is a used Sprinter ambulance. Available as a Type 2 or Type 3, the Mercedes Sprinter is a chassis type that's often used for conversions on emergency ...",
     "gender": "both",
     "price": 7000,
     "id": "017",
