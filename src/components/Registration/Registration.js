@@ -1,27 +1,20 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
-
-    const Registration = e => {
-       console.log('regs completed hoiche');
-        
-
+const Registration = () => {
     return (
         <div>
-            <form onSubmit ={Registration}>
-            <h1>Registration HERE</h1>
-            <label htmlFor="email"> Email:</label>
-            <input type="text" name="email"/>
-            <br/>
-            <label htmlFor="password"> password:</label>
-            <input type="text" name="email"/>
-            <br/>
-            <input type="submit" value="Registration"/>
+            <h2>Please Register:</h2>
+            <form>
+                <input type="email" placeholder="Your Email" />
+                <br />
+                <input type="password" placeholder="Your Password" />
+                <br />
+                <input type="submit" value="Submit" />
             </form>
-        
+            <Link to="/login">Already Registered?</Link>
         </div>
     );
-    
 };
-
 
 export default Registration;

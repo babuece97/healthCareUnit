@@ -3,7 +3,21 @@ import './Login.css'
 const Login = () => {
     return (
         <div>
-            <h1> This is login page</h1>
+            <h2>You can login here:</h2>
+            <form>
+                <input type="email" placeholder="Your Email" />
+                <br />
+                <input type="password" placeholder="Your Password" />
+                <br />
+                <input type="submit" value="Submit" />
+                <br/>
+                <br/>
+                
+            </form>
+            <button>Google Sign In</button>
+            <br/>
+            <br/>
+        
         </div>
     );
 };

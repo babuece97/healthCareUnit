@@ -14,8 +14,8 @@ const Services = () => {
         <div className="d-flex justify-content-evenly">
         {
             services.slice(0, 6).map(service => <Service
-                key={service.id}
                 service={service}
+                key={service.id}
             ></Service>)
         }
     </div>
